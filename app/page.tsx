@@ -1,10 +1,14 @@
-import Image from "next/image";
-
+import Hero from "@/components/Hero";
+import { Navbar } from "@/components/Navbar";
+import TypeWriter from "@/components/TypeWriter";
+import React from "react";
 export default function Home() {
   return (
-    <main>
-      <div>Hello</div>
-      <div>This is test</div>
+    <main className="p-5">
+      <Navbar />
+      <div>
+        <Hero />
+      </div>
     </main>
   );
 }
