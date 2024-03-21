@@ -22,7 +22,7 @@ const Hero = () => {
           </span>
         </div>
         <div className="lg:flex lg:text-2xl font-medium h-12">
-          Now, I can't find myself, but what I want is
+          Now, I can&apos; find myself, but what I want is
           <span className="text-yellow-500 lg:text-3xl text-xl font-semibold ml-2 lg:inline-block">
             <TypeWriter texts={text2} speed={speed2} />
           </span>{" "}
