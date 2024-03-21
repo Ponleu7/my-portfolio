@@ -4,10 +4,10 @@ import { PiCursorClickBold } from "react-icons/pi";
 import { ImageSlider } from "./ImageSilder";
 
 const Hero = () => {
-  const texts = ["!Developer", "Footballer", "!Bank Staff"]; // Array of texts
+  const texts = ["Developer", "Footballer", "Bank Staff"]; // Array of texts
   const speed = 400; // Typing speed in milliseconds per character
 
-  const text2 = ["YOU!", "Happiness."]; // Array of texts
+  const text2 = ["YOU", "Happiness."]; // Array of texts
   const speed2 = 600;
   return (
     <div className="min-h-screen px-2 lg:px-16 lg:flex justify-between">
