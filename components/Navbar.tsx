@@ -16,6 +16,7 @@ export const Navbar = () => {
           <Link href="/">Home</Link>
         </Button>
         <Button variant="ghost">Achievment</Button>
+        <Button variant="ghost">Blog</Button>
         <Button variant="ghost">Resume</Button>
       </div>
     </div>

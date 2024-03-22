@@ -48,10 +48,14 @@
 }
 
 /* fonts.css */
+@font-face {
+  font-family: "Bokor";
+  src: url("/Bokor.ttf") format("truetype");
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Inter:wght@300&family=Konkhmer+Sleokchher&family=Madimi+One&family=Noto+Serif+Khmer:wght@100..900&family=Oswald&family=Roboto:wght@100&family=Rubik&display=swap');
-
-
+.kh1{
+  font-family: 'Bokor';
+}
 .text-main {
   color: #f90b31;
 }
@@ -62,4 +66,3 @@
 .footer-bg {
   background-color: #191919;
 }
-
